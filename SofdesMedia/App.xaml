@@ -1,0 +1,10 @@
+﻿<Application
+    x:Class="SofdesMusic.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SofdesMusic">
+    
+    <Application.Resources>
+        <local:NullEnabledConverter x:Key="NullEnabledConverter" />
+    </Application.Resources>
+</Application>
